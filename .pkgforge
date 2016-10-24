@@ -1,0 +1,28 @@
+name 'lvm2'
+org 'amylum'
+
+licenses 'COPYING'
+
+deps(
+  'linux-api-headers': '4.8-rc6-2'
+)
+
+configure_flags(
+  prefix: '/usr',
+  sysconfdir: '/etc',
+  localstatedir: '/var',
+  sbindir: '/usr/bin'
+)
+
+cflags
+harden
+
+build do
+  configure
+  make
+  install
+end
+
+test do
+  # TODO: add tests
+end
