@@ -4,7 +4,8 @@ org 'amylum'
 licenses 'COPYING'
 
 deps(
-  'linux-api-headers': '4.9-rc3-2'
+  'linux-api-headers': '4.9-rc6-1',
+  'util-linux': '2.29-2'
 )
 
 configure_flags(
@@ -13,9 +14,15 @@ configure_flags(
   localstatedir: '/var',
   sbindir: '/usr/bin'
 )
+remove_linker_archives
+remove_pkgconfig_files
 
 cflags
 harden
+
+patch 'makefile_cflags.patch'
+patch 'lvm2-avoid-mallinfo.patch'
+patch 'lvm2-fix-stdio-usage.patch'
 
 build do
   configure

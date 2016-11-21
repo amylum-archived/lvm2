@@ -1,0 +1,13 @@
+diff --git a/make.tmpl.in b/make.tmpl.in
+index d418cfb..23a075c 100644
+--- a/make.tmpl.in
++++ b/make.tmpl.in
+@@ -495,7 +495,7 @@ endif
+ 	set -e; \
+ 	( cat $(srcdir)/.exported_symbols; \
+ 	  if test -n "$(EXPORTED_HEADER)"; then \
+-		$(CC) -E -P $(INCLUDES) $(DEFS) $(EXPORTED_HEADER) | \
++		$(CC) -E -P $(CFLAGS) $(INCLUDES) $(DEFS) $(EXPORTED_HEADER) | \
+ 		$(SED) -ne "/^typedef|}/!s/.*[ *]\($(EXPORTED_FN_PREFIX)_[a-z0-9_]*\)(.*/\1/p"; \
+ 	  fi \
+ 	) > $@
