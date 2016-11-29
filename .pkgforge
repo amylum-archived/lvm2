@@ -25,7 +25,7 @@ patch 'lvm2-avoid-mallinfo.patch'
 patch 'lvm2-fix-stdio-usage.patch'
 
 build do
-  configure
+  configure 'BLKID_LIBS' => '-luuid -lblkid'
   make
   install
 end
