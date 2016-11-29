@@ -31,5 +31,6 @@ build do
 end
 
 test do
-  # TODO: add tests
+  run 'pvscan'
+  run 'dmsetup status'
 end
