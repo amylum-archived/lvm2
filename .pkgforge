@@ -31,6 +31,6 @@ build do
 end
 
 test do
-  run 'pvscan --ignorelockingfailure'
+  #run 'pvscan --ignorelockingfailure'
   run 'dmsetup help'
 end
