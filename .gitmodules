@@ -1,6 +1,6 @@
 [submodule "upstream"]
 	path = upstream
-	url = git://git.fedorahosted.org/git/lvm2.git
+	url = https://sourceware.org/git/lvm2.git
 [submodule "meta"]
 	path = meta
 	url = git://github.com/amylum/pkgforge-helper
