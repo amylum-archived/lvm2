@@ -5,7 +5,7 @@ licenses 'COPYING'
 
 deps(
   'linux-api-headers': '4.10-1',
-  'util-linux': '2.29.2-3'
+  'util-linux': '2.29.2-4'
 )
 
 configure_flags(
