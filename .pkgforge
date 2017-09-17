@@ -9,8 +9,8 @@ deps(
     checksum: '50b2288419fe132c061bdf3d297293011929abc1092ffaa5e523ad6549b4f5fa'
   },
   'util-linux': {
-    version: '2.30.1-7',
-    checksum: '9b8cdecc1ad9ead4012adb7b299ef275ae0e682ff94c4d822913b71d5d76d0e1'
+    version: '2.30.1-8',
+    checksum: 'dd84f243889f2a6447381aca3ebfffcd178d7edc98767697c77e63b5abc2269c'
   }
 )
 
