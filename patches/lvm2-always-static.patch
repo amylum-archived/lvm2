@@ -1,0 +1,25 @@
+diff --git a/libdm/Makefile.in b/libdm/Makefile.in
+index 66ec39513..5084b30f2 100644
+--- a/libdm/Makefile.in
++++ b/libdm/Makefile.in
+@@ -38,9 +38,7 @@ SOURCES =\
+ 
+ INCLUDES = -I$(srcdir)/$(interface)
+ 
+-ifeq ("@STATIC_LINK@", "yes")
+ LIB_STATIC = $(interface)/libdevmapper.a
+-endif
+ 
+ LIB_SHARED = $(interface)/libdevmapper.$(LIB_SUFFIX)
+ LIB_VERSION = $(LIB_VERSION_DM)
+@@ -69,9 +67,7 @@ libdevmapper.$(LIB_SUFFIX) libdevmapper.$(LIB_SUFFIX).$(LIB_VERSION): $(LIB_SHAR
+ 
+ INSTALL_TYPE = install_dynamic
+ 
+-ifeq ("@STATIC_LINK@", "yes")
+-  INSTALL_TYPE += install_static
+-endif
++INSTALL_TYPE += install_static
+ 
+ ifeq ("@PKGCONFIG@", "yes")
+   INSTALL_TYPE += install_pkgconfig

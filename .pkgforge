@@ -29,6 +29,7 @@ harden
 patch 'makefile_cflags.patch'
 patch 'lvm2-avoid-mallinfo.patch'
 patch 'lvm2-fix-stdio-usage.patch'
+patch 'lvm2-always-static.patch'
 
 build do
   configure 'BLKID_LIBS' => '-luuid -lblkid'
