@@ -11,6 +11,10 @@ deps(
   'util-linux': {
     version: '2.32-21',
     checksum: '8f138a72091b759400c5ef3f03fc116a0886cba7e6f41f9d9cb1e5f36a384c13'
+  },
+  libaio: {
+    version: '0.3.111-1',
+    checksum: '6cafe2a449df3d4161a4eadb3262032832b2d618510930d6ac6d5bc5ecf86928'
   }
 )
 
