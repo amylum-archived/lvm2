@@ -1,7 +1,7 @@
 lvm2
 ==========
 
-[![Build Status](https://img.shields.io/circleci/project/amylum/lvm2/master.svg)](https://circleci.com/gh/amylum/lvm2)
+[![Build Status](https://img.shields.io/travis/com/amylum/lvm2.svg)](https://travis-ci.com/amylum/lvm2)
 [![GitHub release](https://img.shields.io/github/release/amylum/lvm2.svg)](https://github.com/amylum/lvm2/releases)
 [![GPL2 Licensed](http://img.shields.io/badge/license-GPL2-green.svg)](https://tldrlegal.com/license/gnu-general-public-license-v2)
 
