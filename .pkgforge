@@ -9,8 +9,8 @@ deps(
     checksum: 'edc8dab0e57cb3868867a86d501eb5f314ad00d87e50957c3ffae113ce967298'
   },
   'util-linux': {
-    version: '2.32.1-6',
-    checksum: 'dda94d1cdf2473141818fb832d4cd5cdd8f4f596097b124ce2675fd112561395'
+    version: '2.32.1-7',
+    checksum: '07766c4c38d304987d1754a960dbb8cf45222ccad6dda1f31c33b904e499283a'
   },
   libaio: {
     version: '0.3.111-2',
