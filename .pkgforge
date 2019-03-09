@@ -5,16 +5,16 @@ licenses 'COPYING'
 
 deps(
   'linux-api-headers': {
-    version: '4.20-1',
-    checksum: 'aed037b2b3fb2df77ca19359a20188d39c25d011febf4d3733d251fa87ca9636'
+    version: '5.0-1',
+    checksum: '0703e1a5406fea7aa0072034e815fc2b3188151732ec61b134b0e54aa3e752ab'
   },
   'util-linux': {
-    version: '2.33.1-4',
-    checksum: 'f93353d22f3717846e2cb90e9ff99ab7e50e3a02545b9e9d08d069173cff5d47'
+    version: '2.33.1-5',
+    checksum: '04e69d57a0725caf0c5ccbc35a123e3bf1aff96f50968174cce132e22fb41466'
   },
   libaio: {
-    version: '0.3.111-4',
-    checksum: '8f4f93f2dea0dd58abd3a6a4b213c097522fba9fd3d1a61add5075bbc8e664cc'
+    version: '0.3.111-5',
+    checksum: 'be285f97dda00afc7d051d5f06e6aa5d8ff5f4850288be04913ab5752027564f'
   }
 )
 
